@@ -1,13 +1,13 @@
 GIT
   remote: https://github.com/fcheung/dependabot-example-dep.git
-  revision: 7924b840d6143a148c492b20de56257571b36191
+  revision: d56cabbcf1c057593a4cff4c2ac76118d612fdc0
   specs:
     dependabot-example-dep (0.1.0)
       sorbet-runtime
 
 GIT
   remote: https://github.com/puma/puma.git
-  revision: db060253336f9d4eca08cd3abc306c1576345d5f
+  revision: 99ae85bbbe425d1949f9e8693993499aae02fce4
   specs:
     puma (6.3.0)
       nio4r (~> 2.0)
@@ -35,6 +35,8 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.3-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.15.3-x86_64-linux)
+      racc (~> 1.4)
     parallel (1.23.0)
     parser (3.2.2.3)
       ast (~> 2.4.1)
@@ -51,13 +53,14 @@ GEM
       sorbet-runtime (>= 0.5.9204)
       unparser (>= 0.5.6)
     regexp_parser (2.8.1)
-    sorbet (0.5.10929)
-      sorbet-static (= 0.5.10929)
-    sorbet-runtime (0.5.10929)
-    sorbet-static (0.5.10929-universal-darwin-22)
-    sorbet-static-and-runtime (0.5.10929)
-      sorbet (= 0.5.10929)
-      sorbet-runtime (= 0.5.10929)
+    sorbet (0.5.10946)
+      sorbet-static (= 0.5.10946)
+    sorbet-runtime (0.5.10946)
+    sorbet-static (0.5.10946-universal-darwin-22)
+    sorbet-static (0.5.10946-x86_64-linux)
+    sorbet-static-and-runtime (0.5.10946)
+      sorbet (= 0.5.10946)
+      sorbet-runtime (= 0.5.10946)
     spoom (1.2.2)
       erubi (>= 1.10.0)
       sorbet (>= 0.5.10187)
@@ -88,13 +91,14 @@ GEM
 
 PLATFORMS
   x86_64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   capybara
   dependabot-example-dep!
   puma!
   sorbet-runtime
-  sorbet-static
+  sorbet-static (= 0.5.10946)
   tapioca (> 0.10)
 
 BUNDLED WITH
