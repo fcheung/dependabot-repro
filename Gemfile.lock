@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/fcheung/dependabot-example-dep.git
+  revision: 7924b840d6143a148c492b20de56257571b36191
+  specs:
+    dependabot-example-dep (0.1.0)
+      sorbet-runtime
+
+GIT
   remote: https://github.com/puma/puma.git
   revision: db060253336f9d4eca08cd3abc306c1576345d5f
   specs:
@@ -42,6 +49,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  dependabot-example-dep!
   puma!
   sorbet
   sorbet-runtime
