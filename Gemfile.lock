@@ -7,9 +7,9 @@ GIT
 
 GIT
   remote: https://github.com/puma/puma.git
-  revision: db060253336f9d4eca08cd3abc306c1576345d5f
+  revision: a4826bba41954cb431e427f47c0e2dd17d094289
   specs:
-    puma (6.3.0)
+    puma (6.4.0)
       nio4r (~> 2.0)
 
 GEM
@@ -35,6 +35,8 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.3-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.15.3-x86_64-linux)
+      racc (~> 1.4)
     parallel (1.23.0)
     parser (3.2.2.3)
       ast (~> 2.4.1)
@@ -55,6 +57,7 @@ GEM
       sorbet-static (= 0.5.10929)
     sorbet-runtime (0.5.10929)
     sorbet-static (0.5.10929-universal-darwin-22)
+    sorbet-static (0.5.10929-x86_64-linux)
     sorbet-static-and-runtime (0.5.10929)
       sorbet (= 0.5.10929)
       sorbet-runtime (= 0.5.10929)
@@ -88,6 +91,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   capybara
